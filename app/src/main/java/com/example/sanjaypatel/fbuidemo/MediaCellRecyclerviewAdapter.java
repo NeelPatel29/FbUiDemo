@@ -97,7 +97,7 @@ public class MediaCellRecyclerviewAdapter extends RecyclerView.Adapter<MediaCell
 
                     Bitmap bitmap = MediaStore.Images.Media.getBitmap(context.getContentResolver(),uri);
                     ByteArrayOutputStream bytearrayoutputstream = new ByteArrayOutputStream();
-                    bitmap.compress(Bitmap.CompressFormat.JPEG,5,bytearrayoutputstream);
+                    bitmap.compress(Bitmap.CompressFormat.JPEG,50,bytearrayoutputstream);
 
                     byte[] bytearray = bytearrayoutputstream.toByteArray();
 
