@@ -303,10 +303,20 @@ public class MainActivity extends AppCompatActivity {
     }
 
     ItemTouchHelper.SimpleCallback simpleCallback = new ItemTouchHelper.SimpleCallback(0,ItemTouchHelper.LEFT | ItemTouchHelper.RIGHT){
-
+        @Override
+        public boolean isLongPressDragEnabled() {
+            return true;
+        }
+        @Override
+        public int getMovementFlags(RecyclerView recyclerView, RecyclerView.ViewHolder viewHolder) {
+            int dragFlags = ItemTouchHelper.UP | ItemTouchHelper.DOWN;
+            int swipeFlags = ItemTouchHelper.START | ItemTouchHelper.END;
+            return makeMovementFlags(dragFlags, swipeFlags);
+        }
         @Override
         public boolean onMove(RecyclerView recyclerView, RecyclerView.ViewHolder viewHolder, RecyclerView.ViewHolder target) {
-            return false;
+            moveItem(viewHolder.getAdapterPosition(),target.getAdapterPosition());
+            return true;
         }
 
         @Override
@@ -356,6 +366,15 @@ public class MainActivity extends AppCompatActivity {
             super.onChildDraw(c, recyclerView, viewHolder, dX, dY, actionState, isCurrentlyActive);
         }
     };
+
+    private void moveItem(int oldPosition, int newPosition) {
+        MediaCell mediacell = sanDSList.get(oldPosition);
+        sanDSList.remove(mediacell);
+        sanDSList.add(newPosition,mediacell);
+
+        dsRecyclerviewAdapter.notifyItemMoved(oldPosition,newPosition);
+    }
+
     private class BackgroundTask extends AsyncTask <String, String, String> {
         ProgressDialog dialog;
 

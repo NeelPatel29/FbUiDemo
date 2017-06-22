@@ -1,5 +1,41 @@
 [
     {
+        "merged": "/Users/sanjaypatel/Documents/Sanjay/Android Cls/FbUiDemo/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow_custom.xml",
+        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/layout-v11/notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow_custom.xml",
+        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/layout-v11/notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "/Users/krushitpatel/Desktop/Asynctask/FbUiDemo/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media.xml",
+        "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/layout-v11/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/Users/krushitpatel/Desktop/Asynctask/FbUiDemo/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow_custom.xml",
+        "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/layout-v11/notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media.xml",
+        "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/layout-v11/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_custom.xml",
+        "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/layout-v11/notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow_custom.xml",
+        "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/layout-v11/notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "/Users/sanjaypatel/Documents/Sanjay/Android Cls/FbUiDemo/app/build/intermediates/res/merged/debug/layout-v11/notification_media_cancel_action.xml",
+        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/layout-v11/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_custom.xml",
+        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/layout-v11/notification_template_big_media_custom.xml"
+    },
+    {
         "merged": "/Users/sanjaypatel/Documents/Sanjay/Android Cls/FbUiDemo/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow.xml",
         "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/layout-v11/notification_template_big_media_narrow.xml"
     },
@@ -16,10 +52,6 @@
         "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/layout-v11/notification_template_big_media_narrow.xml"
     },
     {
-        "merged": "/Users/sanjaypatel/Documents/Sanjay/Android Cls/FbUiDemo/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow_custom.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/layout-v11/notification_template_big_media_narrow_custom.xml"
-    },
-    {
         "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/layout-v11/notification_media_action.xml",
         "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/layout-v11/notification_media_action.xml"
     },
@@ -28,8 +60,12 @@
         "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/layout-v11/notification_template_big_media_custom.xml"
     },
     {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow_custom.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/layout-v11/notification_template_big_media_narrow_custom.xml"
+        "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow.xml",
+        "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/layout-v11/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/layout-v11/notification_media_cancel_action.xml",
+        "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/layout-v11/notification_media_cancel_action.xml"
     },
     {
         "merged": "/Users/sanjaypatel/Documents/Sanjay/Android Cls/FbUiDemo/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_custom.xml",
@@ -44,14 +80,6 @@
         "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/layout-v11/notification_template_big_media_narrow.xml"
     },
     {
-        "merged": "/Users/krushitpatel/Desktop/Asynctask/FbUiDemo/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media.xml",
-        "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/layout-v11/notification_template_big_media.xml"
-    },
-    {
-        "merged": "/Users/krushitpatel/Desktop/Asynctask/FbUiDemo/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow_custom.xml",
-        "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/layout-v11/notification_template_big_media_narrow_custom.xml"
-    },
-    {
         "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/layout-v11/notification_media_cancel_action.xml",
         "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/layout-v11/notification_media_cancel_action.xml"
     },
@@ -60,15 +88,11 @@
         "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/layout-v11/notification_media_action.xml"
     },
     {
-        "merged": "/Users/sanjaypatel/Documents/Sanjay/Android Cls/FbUiDemo/app/build/intermediates/res/merged/debug/layout-v11/notification_media_cancel_action.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/layout-v11/notification_media_cancel_action.xml"
-    },
-    {
         "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media.xml",
         "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/layout-v11/notification_template_big_media.xml"
     },
     {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_custom.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/layout-v11/notification_template_big_media_custom.xml"
+        "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/layout-v11/notification_media_action.xml",
+        "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/layout-v11/notification_media_action.xml"
     }
 ]

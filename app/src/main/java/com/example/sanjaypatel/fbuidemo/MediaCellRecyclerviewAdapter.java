@@ -187,8 +187,6 @@ public class MediaCellRecyclerviewAdapter extends RecyclerView.Adapter<MediaCell
                     itemView.getContext().startActivity(i);
                 }
             });
-
-
         }
     }
 
