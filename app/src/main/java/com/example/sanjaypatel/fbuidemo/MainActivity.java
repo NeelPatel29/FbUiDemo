@@ -2,6 +2,7 @@ package com.example.sanjaypatel.fbuidemo;
 
 import android.Manifest;
 import android.app.Activity;
+import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -16,7 +17,9 @@ import android.graphics.Paint;
 import android.graphics.Rect;
 import android.graphics.RectF;
 import android.net.Uri;
+import android.os.AsyncTask;
 import android.os.Bundle;
+import android.os.SystemClock;
 import android.provider.Settings;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -37,6 +40,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
+import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import java.util.ArrayList;
@@ -62,6 +66,8 @@ public class MainActivity extends AppCompatActivity {
         recyclerView = new RecyclerView(getApplicationContext());
         linearLayout = new LinearLayout(getApplicationContext());
 
+        layoutParams = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.FILL_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
+        setContentView(linearLayout,layoutParams);
 
         permissionStatus = getSharedPreferences("permissionStatus",MODE_PRIVATE);
         if (ActivityCompat.checkSelfPermission(MainActivity.this, Manifest.permission.WRITE_EXTERNAL_STORAGE) +ActivityCompat.checkSelfPermission(MainActivity.this,Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED ) {
@@ -76,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
                         dialog.cancel();
                         ActivityCompat.requestPermissions(MainActivity.this, new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}, EXTERNAL_STORAGE_PERMISSION_CONSTANT);
                         ActivityCompat.requestPermissions(MainActivity.this, new String[]{Manifest.permission.READ_EXTERNAL_STORAGE}, EXTERNAL_STORAGE_PERMISSION_CONSTANT);
-               //         ActivityCompat.requestPermissions(MainActivity.this, new String[]{Manifest.permission.MANAGE_DOCUMENTS}, EXTERNAL_STORAGE_PERMISSION_CONSTANT);
+                        //         ActivityCompat.requestPermissions(MainActivity.this, new String[]{Manifest.permission.MANAGE_DOCUMENTS}, EXTERNAL_STORAGE_PERMISSION_CONSTANT);
                     }
                 });
                 builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
@@ -115,14 +121,14 @@ public class MainActivity extends AppCompatActivity {
                 //just request the permission
                 ActivityCompat.requestPermissions(MainActivity.this, new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}, EXTERNAL_STORAGE_PERMISSION_CONSTANT);
                 ActivityCompat.requestPermissions(MainActivity.this, new String[]{Manifest.permission.READ_EXTERNAL_STORAGE}, EXTERNAL_STORAGE_PERMISSION_CONSTANT);
-             //   ActivityCompat.requestPermissions(MainActivity.this, new String[]{Manifest.permission.MANAGE_DOCUMENTS}, EXTERNAL_STORAGE_PERMISSION_CONSTANT);
+                //   ActivityCompat.requestPermissions(MainActivity.this, new String[]{Manifest.permission.MANAGE_DOCUMENTS}, EXTERNAL_STORAGE_PERMISSION_CONSTANT);
 
             }
 
             SharedPreferences.Editor editor = permissionStatus.edit();
             editor.putBoolean(Manifest.permission.WRITE_EXTERNAL_STORAGE, true);
             editor.putBoolean(Manifest.permission.READ_EXTERNAL_STORAGE,true);
-           // editor.putBoolean(Manifest.permission.MANAGE_DOCUMENTS,true);
+            // editor.putBoolean(Manifest.permission.MANAGE_DOCUMENTS,true);
 
             editor.commit();
 
@@ -138,8 +144,9 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(getApplicationContext(),"NO Data ",Toast.LENGTH_SHORT).show();
         }else {
 
+            new BackgroundTask().execute();
 
-            dsRecyclerviewAdapter = new MediaCellRecyclerviewAdapter(sanDSList, getApplicationContext());
+          /*  dsRecyclerviewAdapter = new MediaCellRecyclerviewAdapter(sanDSList, getApplicationContext());
             recyclerView.setHasFixedSize(true);
             RecyclerView.LayoutManager mLayoutManager = new GridLayoutManager(this, 1);
             layoutParams = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.FILL_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
@@ -150,13 +157,28 @@ public class MainActivity extends AppCompatActivity {
             recyclerView.setItemAnimator(new DefaultItemAnimator());
             recyclerView.setAdapter(dsRecyclerviewAdapter);
             linearLayout.addView(recyclerView);
-            setContentView(linearLayout,layoutParams);
+            linearLayout.addView(progressBar);
+            setContentView(linearLayout,layoutParams);*/
         }
 
         ItemTouchHelper itemTouchHelper = new ItemTouchHelper(simpleCallback);
         itemTouchHelper.attachToRecyclerView(recyclerView);
 
+        recyclerView.addOnScrollListener(new RecyclerView.OnScrollListener() {
+            @Override
+            public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
+                super.onScrollStateChanged(recyclerView, newState);
+            }
+
+            @Override
+            public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
+                super.onScrolled(recyclerView, dx, dy);
+
+            }
+        });
     }
+
+
 
 
     @Override
@@ -190,7 +212,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void proceedAfterPermission() {
         //We've got the permission, now we can proceed further
-       // Toast.makeText(getBaseContext(), "We got the Storage Permission", Toast.LENGTH_LONG).show();
+        // Toast.makeText(getBaseContext(), "We got the Storage Permission", Toast.LENGTH_LONG).show();
     }
 
     @Override
@@ -290,20 +312,20 @@ public class MainActivity extends AppCompatActivity {
         public void onSwiped(RecyclerView.ViewHolder viewHolder, int direction) {
             final int position = viewHolder.getAdapterPosition();
             if(direction == ItemTouchHelper.LEFT){
-                        long data = sanDSList.get(position).getId();
-                        MediaCell mediaCell= MediaCell.findById(MediaCell.class, data);
-                        mediaCell.delete();
-                        sanDSList.remove(position);
-                        recyclerView.setAdapter(dsRecyclerviewAdapter);
+                long data = sanDSList.get(position).getId();
+                MediaCell mediaCell= MediaCell.findById(MediaCell.class, data);
+                mediaCell.delete();
+                sanDSList.remove(position);
+                recyclerView.setAdapter(dsRecyclerviewAdapter);
 
             }else{
-                        Intent intent = new Intent(MainActivity.this,EditActivity.class);
-                        intent.putExtra("idData",sanDSList.get(position).getId());
-                        intent.putExtra("url",sanDSList.get(position).getUrl());
-                        intent.putExtra("sequence",sanDSList.get(position).getSequence());
-                        intent.putExtra("content",sanDSList.get(position).getTxtContent());
-                        intent.putExtra("mediaType",sanDSList.get(position).getMediaCellEnum());
-                        startActivity(intent);
+                Intent intent = new Intent(MainActivity.this,EditActivity.class);
+                intent.putExtra("idData",sanDSList.get(position).getId());
+                intent.putExtra("url",sanDSList.get(position).getUrl());
+                intent.putExtra("sequence",sanDSList.get(position).getSequence());
+                intent.putExtra("content",sanDSList.get(position).getTxtContent());
+                intent.putExtra("mediaType",sanDSList.get(position).getMediaCellEnum());
+                startActivity(intent);
             }
         }
 
@@ -333,5 +355,68 @@ public class MainActivity extends AppCompatActivity {
             super.onChildDraw(c, recyclerView, viewHolder, dX, dY, actionState, isCurrentlyActive);
         }
     };
+    private class BackgroundTask extends AsyncTask <String, String, String> {
+        ProgressDialog dialog;
 
+
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+            dialog = new ProgressDialog(MainActivity.this);
+            dialog.setMessage("Fetching Data, please wait.");
+            dialog.show();
+        }
+
+
+        @Override
+        protected String doInBackground(String... args) {
+
+            try {
+                //Thread.sleep(5000);
+
+                background();
+            } catch (Exception e) {
+                e.printStackTrace();
+            } catch (OutOfMemoryError e)
+            {
+                e.printStackTrace();
+            }
+
+            return null;
+        }
+        @Override
+        protected void onPostExecute(String result) {
+            if (dialog.isShowing()) {
+
+            }
+            try {
+
+                recyclerView.setHasFixedSize(true);
+                RecyclerView.LayoutManager mLayoutManager = new GridLayoutManager(MainActivity.this, 1);
+
+                linearLayout.setLayoutParams(layoutParams);
+                recyclerView.setLayoutParams(layoutParams);
+                recyclerView.setLayoutManager(mLayoutManager);
+                recyclerView.addItemDecoration(new GridSpacingItemDecoration(1, dpToPx(10), true));
+                recyclerView.setItemAnimator(new DefaultItemAnimator());
+                recyclerView.setAdapter(dsRecyclerviewAdapter);
+                recyclerView.smoothScrollBy(0,5);
+                linearLayout.addView(recyclerView);
+                setContentView(linearLayout, layoutParams);
+            } catch(Exception e){
+
+            } catch (OutOfMemoryError e ){
+
+            }
+            dialog.dismiss();
+        }
+
+
+    }
+
+
+    public void background() {
+        dsRecyclerviewAdapter = new MediaCellRecyclerviewAdapter(sanDSList, getApplicationContext());
+
+    }
 }

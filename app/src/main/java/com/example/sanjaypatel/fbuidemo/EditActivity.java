@@ -103,9 +103,11 @@ public class EditActivity extends AppCompatActivity {
 
         if (mediaCellEnum.toString() == "TEXT") {
             editContent.setText(contentData);
+            editUrl.setVisibility(View.VISIBLE);
+            editUrl.setText(url);
             imageView.setVisibility(View.GONE);
             videoView.setVisibility(View.GONE);
-            editUrl.setVisibility(View.GONE);
+
             loadVideo.setVisibility(View.GONE);
             //load.setVisibility(View.GONE);
 
@@ -166,11 +168,13 @@ public class EditActivity extends AppCompatActivity {
             case MY_MENU_1:
                 Intent intent = new Intent(EditActivity.this, MainActivity.class);
                 String editTextData = editContent.getText().toString();
+                String etUrl = editUrl.getText().toString();
 
                 if (mediaCellEnum.toString() == "TEXT"){
                     long l = Long.parseLong(idData);
                     MediaCell note = MediaCell.findById(MediaCell.class, l);
                     note.setTxtContent(editTextData);
+                    note.setUrl(etUrl);
                     note.save();
 
                 }else if (mediaCellEnum.toString() == "LINK"){
@@ -181,30 +185,33 @@ public class EditActivity extends AppCompatActivity {
                     note.save();
 
                 }else if(mediaCellEnum.toString() == "IMAGE"){
-                    if(urlData == null){
+                   /* if(urlData == null){
                         urlData = editUrl.getText().toString();
                         imageView.setImageURI(Uri.parse(url));
 
-                    }else{
-                        long l = Long.parseLong(idData);
-                        MediaCell note = MediaCell.findById(MediaCell.class, l);
-                        note.setUrl(urlData);
-                        note.setTxtContent(editTextData);
-                        note.save();
+                    }*/
 
-                    }
+                    long l = Long.parseLong(idData);
+                    MediaCell note = MediaCell.findById(MediaCell.class, l);
+                    note.setUrl(editUrl.getText().toString());
+                    note.setTxtContent(editTextData);
+                    note.save();
+
+
 
                 }else if(mediaCellEnum.toString() == "VIDEO"){
-                    if(urlData == null){
-                        videoView.setVideoURI(Uri.parse(url));
-                        videoView.start();
-                    }else {
-                        long l = Long.parseLong(idData);
-                        MediaCell note = MediaCell.findById(MediaCell.class, l);
-                        note.setUrl(urlData);
-                        note.setTxtContent(editTextData);
-                        note.save();
-                    }
+
+//                    if(urlData == null){
+//                        urlData = editUrl.getText().toString();
+//                        videoView.setVideoURI(Uri.parse(url));
+//                        videoView.start();
+//                    }
+                    long l = Long.parseLong(idData);
+                    MediaCell note = MediaCell.findById(MediaCell.class, l);
+                    note.setUrl(editUrl.getText().toString());
+                    note.setTxtContent(editTextData);
+                    note.save();
+
 
                 }
 
@@ -222,8 +229,10 @@ public class EditActivity extends AppCompatActivity {
         if(requestCode == 1){
             Uri uri = data.getData();
             urlData = data.getData().toString();
+            editUrl.setText(urlData);
             // st = data.getData().toString();
             if(mediaCellEnum.toString() == "IMAGE"){
+
                 imageView.setImageURI(uri);
             }
             else if(mediaCellEnum.toString() == "VIDEO"){
@@ -231,5 +240,13 @@ public class EditActivity extends AppCompatActivity {
                 videoView.start();
             }
         }
+
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        Intent intent = new Intent(EditActivity.this,MainActivity.class);
+        startActivity(intent);
     }
 }
