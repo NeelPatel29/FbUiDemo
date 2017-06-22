@@ -164,21 +164,22 @@ public class MainActivity extends AppCompatActivity {
         ItemTouchHelper itemTouchHelper = new ItemTouchHelper(simpleCallback);
         itemTouchHelper.attachToRecyclerView(recyclerView);
 
-        recyclerView.addOnScrollListener(new RecyclerView.OnScrollListener() {
+       /* recyclerView.addOnScrollListener(new RecyclerView.OnScrollListener() {
             @Override
             public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
                 super.onScrollStateChanged(recyclerView, newState);
+
             }
 
             @Override
-            public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
+            public void onScrolled(RecyclerView recyclerView1, int dx, int dy) {
                 super.onScrolled(recyclerView, dx, dy);
 
             }
         });
+*/
+
     }
-
-
 
 
     @Override
@@ -389,25 +390,7 @@ public class MainActivity extends AppCompatActivity {
             if (dialog.isShowing()) {
 
             }
-            try {
 
-                recyclerView.setHasFixedSize(true);
-                RecyclerView.LayoutManager mLayoutManager = new GridLayoutManager(MainActivity.this, 1);
-
-                linearLayout.setLayoutParams(layoutParams);
-                recyclerView.setLayoutParams(layoutParams);
-                recyclerView.setLayoutManager(mLayoutManager);
-                recyclerView.addItemDecoration(new GridSpacingItemDecoration(1, dpToPx(10), true));
-                recyclerView.setItemAnimator(new DefaultItemAnimator());
-                recyclerView.setAdapter(dsRecyclerviewAdapter);
-                recyclerView.smoothScrollBy(0,5);
-                linearLayout.addView(recyclerView);
-                setContentView(linearLayout, layoutParams);
-            } catch(Exception e){
-
-            } catch (OutOfMemoryError e ){
-
-            }
             dialog.dismiss();
         }
 
@@ -417,6 +400,25 @@ public class MainActivity extends AppCompatActivity {
 
     public void background() {
         dsRecyclerviewAdapter = new MediaCellRecyclerviewAdapter(sanDSList, getApplicationContext());
+        try {
 
+            recyclerView.setHasFixedSize(true);
+            RecyclerView.LayoutManager mLayoutManager = new GridLayoutManager(MainActivity.this, 1);
+
+            linearLayout.setLayoutParams(layoutParams);
+            recyclerView.setLayoutParams(layoutParams);
+            recyclerView.setLayoutManager(mLayoutManager);
+            recyclerView.addItemDecoration(new GridSpacingItemDecoration(1, dpToPx(10), true));
+            recyclerView.setItemAnimator(new DefaultItemAnimator());
+            recyclerView.setAdapter(dsRecyclerviewAdapter);
+           // recyclerView.smoothScrollBy(0,-1);
+            recyclerView.smoothScrollToPosition(recyclerView.getAdapter().getItemCount());
+            linearLayout.addView(recyclerView);
+            setContentView(linearLayout, layoutParams);
+        } catch(Exception e){
+
+        } catch (OutOfMemoryError e ){
+
+        }
     }
 }

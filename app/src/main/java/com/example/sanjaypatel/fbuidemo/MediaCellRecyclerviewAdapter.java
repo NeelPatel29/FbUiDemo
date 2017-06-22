@@ -49,6 +49,7 @@ public class MediaCellRecyclerviewAdapter extends RecyclerView.Adapter<MediaCell
     @Override
     public void onBindViewHolder(final DSViewHolder holder, int position) {
         try{
+            holder.setIsRecyclable(false);
             LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.FILL_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
             holder.linearLayout.setLayoutParams(layoutParams);
             holder.cardView.setLayoutParams(layoutParams);
@@ -65,6 +66,7 @@ public class MediaCellRecyclerviewAdapter extends RecyclerView.Adapter<MediaCell
             holder.txtTextCon.setLayoutParams(new LinearLayoutCompat.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
 
             holder.viVideo.setVisibility(View.VISIBLE);
+
 
 
             if (sanDSList.get(position).getMediaCellEnum().toString() .equals("TEXT")){
@@ -95,7 +97,7 @@ public class MediaCellRecyclerviewAdapter extends RecyclerView.Adapter<MediaCell
 
                     Bitmap bitmap = MediaStore.Images.Media.getBitmap(context.getContentResolver(),uri);
                     ByteArrayOutputStream bytearrayoutputstream = new ByteArrayOutputStream();
-                    bitmap.compress(Bitmap.CompressFormat.JPEG,10,bytearrayoutputstream);
+                    bitmap.compress(Bitmap.CompressFormat.JPEG,5,bytearrayoutputstream);
 
                     byte[] bytearray = bytearrayoutputstream.toByteArray();
 
