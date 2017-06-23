@@ -211,7 +211,7 @@ public class AddMediaCellActivity extends AppCompatActivity {
         // getMenuInflater().inflate(R.menu.addmedia, menu);//Menu Resource, Menu
         MenuItem menuItem = menu.add(0, MY_MENU_1 , 0, "ADD");
         MenuItem menuItem2 = menu.add(0, MY_MENU_2 , 0, "Cancel");
-        menuItem.setIcon(android.R.drawable.ic_menu_add);
+        menuItem.setIcon(android.R.drawable.ic_menu_save);
         menuItem.setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS);
         menuItem2.setIcon(android.R.drawable.ic_menu_close_clear_cancel);
         menuItem2.setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS);
@@ -335,7 +335,7 @@ public class AddMediaCellActivity extends AppCompatActivity {
                 Intent intent=new Intent(getApplicationContext(),MainActivity.class);
                 startActivity(intent);
             }else{
-                etUrl.setError("Please enter");
+                etUrl.setError("Please enter valid URL");
             }
         }
     }

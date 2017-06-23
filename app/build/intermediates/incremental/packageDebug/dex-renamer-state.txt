@@ -1,4 +1,4 @@
-#Thu Jun 22 21:06:43 EDT 2017
-base.0=/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+#Fri Jun 23 10:02:57 EDT 2017
+base.0=/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
-file.0=/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+file.0=/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

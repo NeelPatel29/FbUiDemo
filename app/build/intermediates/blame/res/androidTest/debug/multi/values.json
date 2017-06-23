@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "outputFile": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "/Users/krushitpatel/.android/build-cache/ad2b26c1959aacd39b887226c60ae5825906aa56/output/res/values/values.xml",
+                    "file": "/Users/sanjaypatel/.android/build-cache/3f8c241615ddf4e8baed3b940dd33c7cda427794/output/res/values/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
