@@ -1,6 +1,7 @@
 package com.example.sanjaypatel.fbuidemo;
 
 import android.annotation.TargetApi;
+import android.app.ActionBar;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Build;
@@ -51,7 +52,6 @@ public class AddMediaCellActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         //setContentView(R.layout.activity_add_media_cell);
         //setContentView(R.layout.activity_add_media_cell);
-
         Bundle bundle = getIntent().getExtras();
         //linearLayout = (LinearLayout)findViewById(R.id.linearLayout);
         linearLayoutMain = new LinearLayout(getApplicationContext());
@@ -66,7 +66,6 @@ public class AddMediaCellActivity extends AppCompatActivity {
         // cardView.setMaxCardElevation(10);
         videoView = new VideoView(getApplicationContext());
         imageView = new ImageView(getApplicationContext());
-
 
         linearLayoutMain.setLayoutParams(layoutParams);
         linearLayout.setLayoutParams(layoutParams);
@@ -217,7 +216,6 @@ public class AddMediaCellActivity extends AppCompatActivity {
         menuItem2.setIcon(android.R.drawable.ic_menu_close_clear_cancel);
         menuItem2.setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS);
 
-
         return true;
     }
     @RequiresApi(api = Build.VERSION_CODES.KITKAT)
@@ -364,6 +362,7 @@ public class AddMediaCellActivity extends AppCompatActivity {
     public void onBackPressed() {
         super.onBackPressed();
         Intent intent = new Intent(AddMediaCellActivity.this, MainActivity.class);
+        intent.setFlags( Intent.FLAG_ACTIVITY_CLEAR_TOP );
         startActivity(intent);
     }
 

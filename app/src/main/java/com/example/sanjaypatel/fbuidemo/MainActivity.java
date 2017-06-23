@@ -43,7 +43,10 @@ import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
+import com.orm.util.Collection;
+
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
@@ -302,7 +305,7 @@ public class MainActivity extends AppCompatActivity {
         return Math.round(TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, dp, r.getDisplayMetrics()));
     }
 
-    ItemTouchHelper.SimpleCallback simpleCallback = new ItemTouchHelper.SimpleCallback(0,ItemTouchHelper.LEFT | ItemTouchHelper.RIGHT){
+    ItemTouchHelper.SimpleCallback simpleCallback = new ItemTouchHelper.SimpleCallback(0,ItemTouchHelper.LEFT | ItemTouchHelper.RIGHT | ItemTouchHelper.UP | ItemTouchHelper.DOWN){
         @Override
         public boolean isLongPressDragEnabled() {
             return true;
@@ -315,7 +318,8 @@ public class MainActivity extends AppCompatActivity {
         }
         @Override
         public boolean onMove(RecyclerView recyclerView, RecyclerView.ViewHolder viewHolder, RecyclerView.ViewHolder target) {
-            moveItem(viewHolder.getAdapterPosition(),target.getAdapterPosition());
+          //  moveItem(viewHolder.getAdapterPosition(),target.getAdapterPosition());
+            onItemMove(viewHolder.getAdapterPosition(),target.getAdapterPosition());
             return false;
         }
 
@@ -342,6 +346,19 @@ public class MainActivity extends AppCompatActivity {
             }
 
         }
+        public boolean onItemMove(int fromPosition, int toPosition) {
+            if (fromPosition < toPosition) {
+                for (int i = fromPosition; i < toPosition; i++) {
+                    Collections.swap(sanDSList, i, i + 1);
+                }
+            } else {
+                for (int i = fromPosition; i > toPosition; i--) {
+                    Collections.swap(sanDSList, i, i - 1);
+                }
+            }
+            dsRecyclerviewAdapter.notifyItemMoved(fromPosition, toPosition);
+            return true;
+        }
         private void moveItem(int oldPosition, int newPosition) {
             mediaCell = sanDSList.get(oldPosition);
             sanDSList.remove(mediaCell);
@@ -358,6 +375,7 @@ public class MainActivity extends AppCompatActivity {
             mediaCell = MediaCell.findById(MediaCell.class, sanDSList.get(newPosition).getId());
             mediaCell.setSequence(oldPosition);
             mediaCell.save();
+
 
         }
         @Override

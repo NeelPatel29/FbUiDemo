@@ -240,6 +240,7 @@ public class EditActivity extends AppCompatActivity {
     public void onBackPressed() {
         super.onBackPressed();
         Intent intent = new Intent(EditActivity.this,MainActivity.class);
+        intent.setFlags( Intent.FLAG_ACTIVITY_CLEAR_TOP );
         startActivity(intent);
     }
 }

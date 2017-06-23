@@ -4,6 +4,14 @@
         "source": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
+        "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher_round.png",
+        "source": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
         "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher_round.png",
         "source": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     }

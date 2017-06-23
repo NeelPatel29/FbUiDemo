@@ -51,8 +51,18 @@
             android:name="DOMAIN_PACKAGE_NAME"
             android:value="com.example.sanjaypatel.fbuidemo" />
 
-        <activity android:name="com.example.sanjaypatel.fbuidemo.AddMediaCellActivity" />
-        <activity android:name="com.example.sanjaypatel.fbuidemo.EditActivity" />
+        <activity android:name="com.example.sanjaypatel.fbuidemo.AddMediaCellActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" >
+            </meta-data>
+        </activity>
+        <activity android:name="com.example.sanjaypatel.fbuidemo.EditActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" >
+            </meta-data>
+        </activity>
     </application>
 
 </manifest>

@@ -40,8 +40,19 @@
         <meta-data
             android:name="DOMAIN_PACKAGE_NAME"
             android:value="com.example.sanjaypatel.fbuidemo" />
-        <activity android:name=".AddMediaCellActivity"></activity>
-        <activity android:name=".EditActivity"></activity>
+        <activity android:name=".AddMediaCellActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity">
+            </meta-data>
+        </activity>
+        <activity android:name=".EditActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity">
+            </meta-data>
+
+        </activity>
     </application>
 
 </manifest>
