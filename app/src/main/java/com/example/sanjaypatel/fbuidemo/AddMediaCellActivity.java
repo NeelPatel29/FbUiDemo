@@ -50,6 +50,7 @@ public class AddMediaCellActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //setContentView(R.layout.activity_add_media_cell);
+        //setContentView(R.layout.activity_add_media_cell);
 
         Bundle bundle = getIntent().getExtras();
         //linearLayout = (LinearLayout)findViewById(R.id.linearLayout);
