@@ -1,13 +1,5 @@
 [
     {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
-        "source": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher_round.png",
-        "source": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
-    },
-    {
         "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher_round.png",
         "source": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },

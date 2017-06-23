@@ -3,9 +3,11 @@ package com.example.sanjaypatel.fbuidemo;
 import android.annotation.TargetApi;
 import android.app.ActionBar;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.support.annotation.RequiresApi;
+import android.support.design.widget.TextInputLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.CardView;
@@ -39,6 +41,7 @@ public class AddMediaCellActivity extends AppCompatActivity {
     LinearLayout linearLayout,linearLayoutMain;
     VideoView videoView;
     ImageView imageView;
+    TextInputLayout txtInputCon,txtInputUrl;
 
     LinearLayout.LayoutParams layoutParams;
     private static final int MY_MENU_1 = Menu.FIRST;
@@ -59,11 +62,14 @@ public class AddMediaCellActivity extends AppCompatActivity {
         linearLayout.setOrientation(LinearLayout.VERTICAL);
         cardView = new CardView(getApplicationContext());
         layoutParams = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.FILL_PARENT, ViewGroup.LayoutParams.FILL_PARENT);
-        linearLayoutMain.setPadding(50,50,50,50);
-        cardView.setPadding(50,50,50,50);
-        linearLayout.setPadding(50,50,50,50);
 
-        // cardView.setMaxCardElevation(10);
+        cardView.setPadding(50,50,50,50);
+        linearLayout.setPadding(25,25,25,25);
+        linearLayoutMain.setPadding(25,25,25,25);
+        linearLayoutMain.setBackgroundColor(Color.parseColor("#08557E"));
+        cardView.setBackgroundResource(android.R.drawable.dialog_holo_light_frame);
+        cardView.setCardElevation(25f);
+
         videoView = new VideoView(getApplicationContext());
         imageView = new ImageView(getApplicationContext());
 
@@ -73,8 +79,11 @@ public class AddMediaCellActivity extends AppCompatActivity {
 
 
         txtSeq = new TextView(getApplicationContext());
+        txtInputCon = new TextInputLayout(AddMediaCellActivity.this);
+        txtInputUrl = new TextInputLayout(AddMediaCellActivity.this);
         etCon = new EditText(getApplicationContext());
         etUrl = new EditText(getApplicationContext());
+
         btnLoad = new Button(getApplicationContext());
         spType = new Spinner(getApplicationContext());
 
@@ -92,7 +101,7 @@ public class AddMediaCellActivity extends AppCompatActivity {
         spType.setBackgroundResource(R.drawable.custom_spinner);
 
         spType.setPopupBackgroundResource(R.drawable.custom_popup_spinner);
-        spType.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.FILL_PARENT, 150));
+        spType.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.FILL_PARENT, 100));
 
 
         String[] Media_Type= { "TEXT","LINK" ,"IMAGE","VIDEO"};
@@ -102,7 +111,9 @@ public class AddMediaCellActivity extends AppCompatActivity {
         spType.setAdapter(arrayAdapter);
 
 
+
         txtSeq.setText(String.valueOf(bundle.getInt("seq")));
+        txtSeq.setTextSize(25);
 
         etCon.setHint("Enter Content");
         etUrl.setHint("Enter URL");
@@ -142,10 +153,8 @@ public class AddMediaCellActivity extends AppCompatActivity {
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 if (position == 0 ){
                     Toast.makeText(getApplicationContext(),"Text",Toast.LENGTH_SHORT).show();
-                    etCon.setHint("Enter Title...");
-                    etUrl.setVisibility(View.VISIBLE);
-                    etUrl.setHint("Enter Content...");
 
+                    etUrl.setVisibility(View.VISIBLE);
 
                     btnLoad.setVisibility(View.INVISIBLE);
                     imageView.setVisibility(View.INVISIBLE);
@@ -154,7 +163,7 @@ public class AddMediaCellActivity extends AppCompatActivity {
                 }else if (position == 1){
                     Toast.makeText(getApplicationContext(),"Link",Toast.LENGTH_SHORT).show();
                     etUrl.setVisibility(View.VISIBLE);
-                    etUrl.setHint("Paste Your URl");
+
                     btnLoad.setVisibility(View.INVISIBLE);
                     imageView.setVisibility(View.INVISIBLE);
                     videoView.setVisibility(View.INVISIBLE);
@@ -196,8 +205,10 @@ public class AddMediaCellActivity extends AppCompatActivity {
     private void addChild(){
         linearLayout.addView(txtSeq);
         linearLayout.addView(spType);
-        linearLayout.addView(etCon);
-        linearLayout.addView(etUrl);
+        txtInputCon.addView(etCon);
+        linearLayout.addView(txtInputCon);
+        txtInputUrl.addView(etUrl);
+        linearLayout.addView(txtInputUrl);
         linearLayout.addView(btnLoad);
         linearLayout.addView(imageView);
         linearLayout.addView(videoView);

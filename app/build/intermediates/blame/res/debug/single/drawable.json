@@ -4,20 +4,8 @@
         "source": "/Users/krushitpatel/.android/build-cache/0ce42ebd01b98dd30875ea99f9fae7e6ec4aa67c/output/res/drawable/design_fab_background.xml"
     },
     {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/drawable/notification_tile_bg.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/drawable/abc_btn_colored_material.xml"
-    },
-    {
         "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
         "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/drawable/notification_icon_background.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/drawable/abc_spinner_textfield_background_material.xml"
     },
     {
         "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
@@ -36,10 +24,6 @@
         "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/drawable/notification_tile_bg.xml"
     },
     {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/notification_bg.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/drawable/notification_bg.xml"
-    },
-    {
         "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
         "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/drawable/abc_cab_background_internal_bg.xml"
     },
@@ -52,48 +36,20 @@
         "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/drawable/abc_btn_borderless_material.xml"
     },
     {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/drawable/abc_edit_text_material.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/custom_popup_spinner.xml",
-        "source": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/src/main/res/drawable/custom_popup_spinner.xml"
-    },
-    {
         "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
         "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/drawable/abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/fb1ddffe0586588bf070a1deeb89645e68aa06fa/output/res/drawable/design_snackbar_background.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/drawable/abc_ic_go_search_api_material.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/drawable/abc_item_background_holo_dark.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/drawable/abc_textfield_search_material.xml"
-    },
-    {
-        "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
-        "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/drawable/abc_seekbar_tick_mark_material.xml"
     },
     {
         "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
         "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/drawable/abc_list_selector_holo_light.xml"
     },
     {
-        "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/navigation_empty_icon.xml",
-        "source": "/Users/krushitpatel/.android/build-cache/0ce42ebd01b98dd30875ea99f9fae7e6ec4aa67c/output/res/drawable/navigation_empty_icon.xml"
+        "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
+        "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/drawable/abc_seekbar_tick_mark_material.xml"
     },
     {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/drawable/abc_ic_search_api_material.xml"
+        "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/navigation_empty_icon.xml",
+        "source": "/Users/krushitpatel/.android/build-cache/0ce42ebd01b98dd30875ea99f9fae7e6ec4aa67c/output/res/drawable/navigation_empty_icon.xml"
     },
     {
         "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
@@ -108,20 +64,8 @@
         "source": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/src/main/res/drawable/custom_spinner.xml"
     },
     {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/custom_spinner.xml",
-        "source": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/src/main/res/drawable/custom_spinner.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/drawable/abc_vector_test.xml"
-    },
-    {
         "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
         "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/drawable/abc_ratingbar_small_material.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/drawable/notification_bg_low.xml"
     },
     {
         "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
@@ -132,28 +76,12 @@
         "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/drawable/abc_btn_check_material.xml"
     },
     {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/drawable/abc_list_selector_holo_dark.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/drawable/abc_btn_check_material.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/design_bottom_navigation_item_background.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/fb1ddffe0586588bf070a1deeb89645e68aa06fa/output/res/drawable/design_bottom_navigation_item_background.xml"
-    },
-    {
         "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
         "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/drawable/abc_seekbar_track_material.xml"
     },
     {
         "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
         "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/drawable/notification_bg_low.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/googlelogo.jpg",
-        "source": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/src/main/res/drawable/googlelogo.jpg"
     },
     {
         "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
@@ -168,64 +96,16 @@
         "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/drawable/abc_ic_clear_material.xml"
     },
     {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/drawable/abc_ic_voice_search_api_material.xml"
-    },
-    {
         "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
         "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/drawable/abc_dialog_material_background.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/drawable/abc_tab_indicator_material.xml"
     },
     {
         "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
         "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/drawable/abc_ic_ab_back_material.xml"
     },
     {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/drawable/abc_btn_default_mtrl_shape.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
         "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
         "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/drawable/abc_switch_thumb_material.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/navigation_empty_icon.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/fb1ddffe0586588bf070a1deeb89645e68aa06fa/output/res/drawable/navigation_empty_icon.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/drawable/abc_list_selector_holo_light.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/drawable/abc_btn_borderless_material.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/drawable/abc_text_cursor_material.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/fb1ddffe0586588bf070a1deeb89645e68aa06fa/output/res/drawable/design_fab_background.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/drawable/abc_btn_radio_material.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/drawable/abc_switch_thumb_material.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/drawable/abc_seekbar_track_material.xml"
     },
     {
         "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
@@ -236,10 +116,6 @@
         "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/drawable/abc_seekbar_thumb_material.xml"
     },
     {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/drawable/abc_seekbar_tick_mark_material.xml"
-    },
-    {
         "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
         "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/drawable/abc_btn_radio_material.xml"
     },
@@ -248,48 +124,16 @@
         "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/drawable/abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/drawable/notification_icon_background.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/drawable/abc_ratingbar_material.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/drawable/abc_item_background_holo_light.xml"
-    },
-    {
         "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/design_bottom_navigation_item_background.xml",
         "source": "/Users/krushitpatel/.android/build-cache/0ce42ebd01b98dd30875ea99f9fae7e6ec4aa67c/output/res/drawable/design_bottom_navigation_item_background.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/drawable/abc_cab_background_internal_bg.xml"
     },
     {
         "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
         "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/drawable/abc_ic_voice_search_api_material.xml"
     },
     {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/drawable/abc_ratingbar_indicator_material.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
-    },
-    {
         "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
         "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/drawable/abc_ratingbar_material.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/design_password_eye.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/fb1ddffe0586588bf070a1deeb89645e68aa06fa/output/res/drawable/design_password_eye.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/divider.xml",
-        "source": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/src/main/res/drawable/divider.xml"
     },
     {
         "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/divider.xml",
@@ -308,52 +152,20 @@
         "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/drawable/abc_ic_go_search_api_material.xml"
     },
     {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/drawable/abc_ic_clear_material.xml"
-    },
-    {
         "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/design_password_eye.xml",
         "source": "/Users/krushitpatel/.android/build-cache/0ce42ebd01b98dd30875ea99f9fae7e6ec4aa67c/output/res/drawable/design_password_eye.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
         "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
         "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/drawable/abc_item_background_holo_light.xml"
     },
     {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/drawable/abc_cab_background_top_material.xml"
-    },
-    {
         "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",
         "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/drawable/abc_ic_menu_overflow_material.xml"
     },
     {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/drawable/abc_ic_ab_back_material.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/drawable/abc_ic_menu_overflow_material.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/drawable/abc_seekbar_thumb_material.xml"
-    },
-    {
         "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",
         "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/drawable/abc_vector_test.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/drawable/abc_dialog_material_background.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/drawable/abc_ratingbar_small_material.xml"
     },
     {
         "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",

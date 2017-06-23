@@ -2,7 +2,9 @@ package com.example.sanjaypatel.fbuidemo;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Color;
 import android.net.Uri;
+import android.support.design.widget.TextInputLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.CardView;
@@ -29,7 +31,7 @@ public class EditActivity extends AppCompatActivity {
     LinearLayout.LayoutParams layoutParams;
     ImageView imageView;
     VideoView videoView;
-
+    TextInputLayout txtInputCon,txtInputUrl;
     Spinner spinner;
     MediaCellEnum mediaCellEnum ;
     String idData,contentData,urlData,url;
@@ -42,6 +44,8 @@ public class EditActivity extends AppCompatActivity {
         editContent = new EditText(getApplicationContext());
         editUrl = new EditText(getApplicationContext());
         save = new Button(getApplicationContext());
+        txtInputCon = new TextInputLayout(EditActivity.this);
+        txtInputUrl = new TextInputLayout(EditActivity.this);
         //load = new Button(getApplicationContext());
         loadVideo = new Button(getApplicationContext());
         imageView = new ImageView(getApplicationContext());
@@ -51,31 +55,37 @@ public class EditActivity extends AppCompatActivity {
         linearLayoutMain = new LinearLayout(getApplicationContext());
         cardView = new CardView(getApplicationContext());
         layoutParams = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.FILL_PARENT, ViewGroup.LayoutParams.FILL_PARENT);
-        linearLayout.setLayoutParams(layoutParams);
         linearLayout.setOrientation(LinearLayout.VERTICAL);
 
-
-        linearLayoutMain.setPadding(50,50,50,50);
         cardView.setPadding(50,50,50,50);
-        linearLayout.setPadding(50,50,50,50);
+        linearLayout.setPadding(25,25,25,25);
+        linearLayoutMain.setPadding(25,25,25,25);
+        linearLayoutMain.setBackgroundColor(Color.parseColor("#08557E"));
+        cardView.setBackgroundResource(android.R.drawable.dialog_holo_light_frame);
+        cardView.setCardElevation(25f);
+
         linearLayoutMain.setLayoutParams(layoutParams);
         linearLayout.setLayoutParams(layoutParams);
         cardView.setLayoutParams(layoutParams);
+
         imageView.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.FILL_PARENT, ViewGroup.LayoutParams.FILL_PARENT));
 
-
+        editContent.setHint("Enter Content");
+        editUrl.setHint("Enter URL");
         imageView.setPadding(50,50,50,50);
         videoView.setPadding(50,50,50,50);
 
-        linearLayout.addView(editContent);
-        linearLayout.addView(editUrl);
+        txtInputCon.addView(editContent);
+        linearLayout.addView(txtInputCon);
+        txtInputUrl.addView(editUrl);
+        linearLayout.addView(txtInputUrl);
         linearLayout.addView(loadVideo);
         linearLayout.addView(imageView);
         linearLayout.addView(videoView);
-
-
         cardView.addView(linearLayout);
         linearLayoutMain.addView(cardView);
+
+
 
         loadVideo.setText("Upload Data");
         ArrayList<String> spinnerArray = new ArrayList<String>();

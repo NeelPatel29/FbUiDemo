@@ -55,7 +55,8 @@ public class MediaCellRecyclerviewAdapter extends RecyclerView.Adapter<MediaCell
             holder.cardView.setLayoutParams(layoutParams);
             holder.linearLayout.addView(holder.cardView);
 
-            holder.cardView.setCardElevation(50f);
+            holder.cardView.setBackgroundResource(android.R.drawable.dialog_holo_light_frame);
+            holder.cardView.setCardElevation(30f);
             holder.displayLinear.setOrientation(LinearLayout.VERTICAL);
             holder.displayLinear.setLayoutParams(new LinearLayoutCompat.LayoutParams(ViewGroup.LayoutParams.FILL_PARENT, ViewGroup.LayoutParams.FILL_PARENT));
             holder.cardView.addView(holder.displayLinear);
