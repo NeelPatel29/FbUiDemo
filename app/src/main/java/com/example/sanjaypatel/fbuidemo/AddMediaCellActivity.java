@@ -1,16 +1,13 @@
 package com.example.sanjaypatel.fbuidemo;
 
+import android.annotation.TargetApi;
 import android.content.Intent;
-import android.graphics.Bitmap;
-import android.graphics.Color;
 import android.os.AsyncTask;
 import android.os.Build;
-import android.provider.MediaStore;
 import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.CardView;
-import android.util.Base64;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -27,7 +24,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.VideoView;
 
-import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.net.URL;
 import java.net.URLConnection;
@@ -46,9 +42,10 @@ public class AddMediaCellActivity extends AppCompatActivity {
     LinearLayout.LayoutParams layoutParams;
     private static final int MY_MENU_1 = Menu.FIRST;
     private static final int MY_MENU_2 = Menu.FIRST + 1 ;
-    MediaCell ds;
+    MediaCell mediaCell;
     Boolean isValidURL = false;
 
+    @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -92,10 +89,16 @@ public class AddMediaCellActivity extends AppCompatActivity {
         spType.setId(R.id.spType);
         imageView.setId(R.id.etIMAGE);
         videoView.setId(R.id.etVIDEO);
+        spType.setBackgroundResource(R.drawable.custom_spinner);
+
+        spType.setPopupBackgroundResource(R.drawable.custom_popup_spinner);
+        spType.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.FILL_PARENT, 150));
+
 
         String[] Media_Type= { "TEXT","LINK" ,"IMAGE","VIDEO"};
 
-        ArrayAdapter arrayAdapter = new ArrayAdapter(this,android.R.layout.simple_spinner_item, Media_Type);
+        ArrayAdapter arrayAdapter = new ArrayAdapter(this,android.R.layout.select_dialog_singlechoice, Media_Type);
+
         spType.setAdapter(arrayAdapter);
 
 
@@ -270,8 +273,8 @@ public class AddMediaCellActivity extends AppCompatActivity {
 
 
                 if (spType.getSelectedItem().toString().equals("Text")){
-                    ds = new MediaCell(etUrl.getText().toString(),etCon.getText().toString(),Integer.parseInt(txtSeq.getText().toString()),MediaCellEnum.TEXT);
-                    ds.save();
+                    mediaCell = new MediaCell(etUrl.getText().toString(),etCon.getText().toString(),Integer.parseInt(txtSeq.getText().toString()),MediaCellEnum.TEXT);
+                    mediaCell.save();
                     Toast.makeText(getApplicationContext(),"Save..",Toast.LENGTH_SHORT).show();
                     Intent intent=new Intent(getApplicationContext(),MainActivity.class);
                     startActivity(intent);
@@ -279,23 +282,23 @@ public class AddMediaCellActivity extends AppCompatActivity {
 
                     new Connection().execute();
 
-                    ds = new MediaCell(etUrl.getText().toString(),etCon.getText().toString(),Integer.parseInt(txtSeq.getText().toString()),MediaCellEnum.LINK);
+                    mediaCell = new MediaCell(etUrl.getText().toString(),etCon.getText().toString(),Integer.parseInt(txtSeq.getText().toString()),MediaCellEnum.LINK);
                 }else if (spType.getSelectedItem().toString().equals("IMAGE")){
-                    ds = new MediaCell(etUrl.getText().toString(),etCon.getText().toString(),Integer.parseInt(txtSeq.getText().toString()),MediaCellEnum.IMAGE);
-                    ds.save();
+                    mediaCell = new MediaCell(etUrl.getText().toString(),etCon.getText().toString(),Integer.parseInt(txtSeq.getText().toString()),MediaCellEnum.IMAGE);
+                    mediaCell.save();
                     Toast.makeText(getApplicationContext(),"Save..",Toast.LENGTH_SHORT).show();
                     Intent intent=new Intent(getApplicationContext(),MainActivity.class);
                     startActivity(intent);
                 }else if (spType.getSelectedItem().toString().equals("VIDEO")){
-                    ds = new MediaCell(etUrl.getText().toString(),etCon.getText().toString(),Integer.parseInt(txtSeq.getText().toString()),MediaCellEnum.VIDEO);
-                    ds.save();
+                    mediaCell = new MediaCell(etUrl.getText().toString(),etCon.getText().toString(),Integer.parseInt(txtSeq.getText().toString()),MediaCellEnum.VIDEO);
+                    mediaCell.save();
                     Toast.makeText(getApplicationContext(),"Save..",Toast.LENGTH_SHORT).show();
                     Intent intent=new Intent(getApplicationContext(),MainActivity.class);
                     startActivity(intent);
                 }else
                 {
-                    ds = new MediaCell(etUrl.getText().toString(),etCon.getText().toString(),Integer.parseInt(txtSeq.getText().toString()),MediaCellEnum.TEXT);
-                    ds.save();
+                    mediaCell = new MediaCell(etUrl.getText().toString(),etCon.getText().toString(),Integer.parseInt(txtSeq.getText().toString()),MediaCellEnum.TEXT);
+                    mediaCell.save();
                     Toast.makeText(getApplicationContext(),"Save..",Toast.LENGTH_SHORT).show();
                     Intent intent=new Intent(getApplicationContext(),MainActivity.class);
                     startActivity(intent);
@@ -328,7 +331,7 @@ public class AddMediaCellActivity extends AppCompatActivity {
         protected void onPostExecute(Object o) {
             super.onPostExecute(o);
             if(isValidURL) {
-                ds.save();
+                mediaCell.save();
                 Intent intent=new Intent(getApplicationContext(),MainActivity.class);
                 startActivity(intent);
             }else{

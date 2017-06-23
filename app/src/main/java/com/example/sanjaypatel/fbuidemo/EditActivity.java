@@ -29,22 +29,15 @@ public class EditActivity extends AppCompatActivity {
     LinearLayout.LayoutParams layoutParams;
     ImageView imageView;
     VideoView videoView;
-    private static final int EXTERNAL_STORAGE_PERMISSION_CONSTANT = 100;
-    private static final int REQUEST_PERMISSION_SETTING = 101;
-    private boolean sentToSettings = false;
-    private SharedPreferences permissionStatus;
-    File file;
+
     Spinner spinner;
     MediaCellEnum mediaCellEnum ;
     String idData,contentData,urlData,url;
-    int sequence;
     private static final int MY_MENU_1 = Menu.FIRST;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        permissionStatus = getSharedPreferences("permissionStatus", MODE_PRIVATE);
 
         editContent = new EditText(getApplicationContext());
         editUrl = new EditText(getApplicationContext());
@@ -172,17 +165,17 @@ public class EditActivity extends AppCompatActivity {
 
                 if (mediaCellEnum.toString() == "TEXT"){
                     long l = Long.parseLong(idData);
-                    MediaCell note = MediaCell.findById(MediaCell.class, l);
-                    note.setTxtContent(editTextData);
-                    note.setUrl(etUrl);
-                    note.save();
+                    MediaCell mediaCell = MediaCell.findById(MediaCell.class, l);
+                    mediaCell.setTxtContent(editTextData);
+                    mediaCell.setUrl(etUrl);
+                    mediaCell.save();
 
                 }else if (mediaCellEnum.toString() == "LINK"){
                     long l = Long.parseLong(idData);
-                    MediaCell note = MediaCell.findById(MediaCell.class, l);
-                    note.setUrl(editUrl.getText().toString());
-                    note.setTxtContent(editTextData);
-                    note.save();
+                    MediaCell mediaCell = MediaCell.findById(MediaCell.class, l);
+                    mediaCell.setUrl(editUrl.getText().toString());
+                    mediaCell.setTxtContent(editTextData);
+                    mediaCell.save();
 
                 }else if(mediaCellEnum.toString() == "IMAGE"){
                    /* if(urlData == null){
@@ -192,10 +185,10 @@ public class EditActivity extends AppCompatActivity {
                     }*/
 
                     long l = Long.parseLong(idData);
-                    MediaCell note = MediaCell.findById(MediaCell.class, l);
-                    note.setUrl(editUrl.getText().toString());
-                    note.setTxtContent(editTextData);
-                    note.save();
+                    MediaCell mediaCell = MediaCell.findById(MediaCell.class, l);
+                    mediaCell.setUrl(editUrl.getText().toString());
+                    mediaCell.setTxtContent(editTextData);
+                    mediaCell.save();
 
 
 
@@ -207,10 +200,10 @@ public class EditActivity extends AppCompatActivity {
 //                        videoView.start();
 //                    }
                     long l = Long.parseLong(idData);
-                    MediaCell note = MediaCell.findById(MediaCell.class, l);
-                    note.setUrl(editUrl.getText().toString());
-                    note.setTxtContent(editTextData);
-                    note.save();
+                    MediaCell mediaCell = MediaCell.findById(MediaCell.class, l);
+                    mediaCell.setUrl(editUrl.getText().toString());
+                    mediaCell.setTxtContent(editTextData);
+                    mediaCell.save();
 
 
                 }

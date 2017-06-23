@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
     private boolean sentToSettings = false;
     private static final int MY_MENU_1 = Menu.FIRST;
     LinearLayout.LayoutParams layoutParams;
-
+    MediaCell mediaCell;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -316,15 +316,17 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public boolean onMove(RecyclerView recyclerView, RecyclerView.ViewHolder viewHolder, RecyclerView.ViewHolder target) {
             moveItem(viewHolder.getAdapterPosition(),target.getAdapterPosition());
-            return true;
+            return false;
         }
+
+
 
         @Override
         public void onSwiped(RecyclerView.ViewHolder viewHolder, int direction) {
             final int position = viewHolder.getAdapterPosition();
-            if(direction == ItemTouchHelper.LEFT){
+            if(direction/4 == ItemTouchHelper.LEFT){
                 long data = sanDSList.get(position).getId();
-                MediaCell mediaCell= MediaCell.findById(MediaCell.class, data);
+                mediaCell= MediaCell.findById(MediaCell.class, data);
                 mediaCell.delete();
                 sanDSList.remove(position);
                 recyclerView.setAdapter(dsRecyclerviewAdapter);
@@ -338,8 +340,26 @@ public class MainActivity extends AppCompatActivity {
                 intent.putExtra("mediaType",sanDSList.get(position).getMediaCellEnum());
                 startActivity(intent);
             }
-        }
 
+        }
+        private void moveItem(int oldPosition, int newPosition) {
+            mediaCell = sanDSList.get(oldPosition);
+            sanDSList.remove(mediaCell);
+            sanDSList.add(newPosition,mediaCell);
+
+            dsRecyclerviewAdapter.notifyItemMoved(oldPosition,newPosition);
+
+            sanDSList.get(newPosition).getId();
+            sanDSList.get(oldPosition).getId();
+
+           // mediaCell = MediaCell.findById(MediaCell.class, sanDSList.get(oldPosition).getId());
+            //mediaCell.setSequence(newPosition);
+
+            mediaCell = MediaCell.findById(MediaCell.class, sanDSList.get(newPosition).getId());
+            mediaCell.setSequence(oldPosition);
+            mediaCell.save();
+
+        }
         @Override
         public void onChildDraw(Canvas c, RecyclerView recyclerView, RecyclerView.ViewHolder viewHolder, float dX, float dY, int actionState, boolean isCurrentlyActive) {
             Bitmap icon;
@@ -367,13 +387,7 @@ public class MainActivity extends AppCompatActivity {
         }
     };
 
-    private void moveItem(int oldPosition, int newPosition) {
-        MediaCell mediacell = sanDSList.get(oldPosition);
-        sanDSList.remove(mediacell);
-        sanDSList.add(newPosition,mediacell);
 
-        dsRecyclerviewAdapter.notifyItemMoved(oldPosition,newPosition);
-    }
 
     private class BackgroundTask extends AsyncTask <String, String, String> {
         ProgressDialog dialog;
@@ -407,10 +421,10 @@ public class MainActivity extends AppCompatActivity {
         @Override
         protected void onPostExecute(String result) {
             if (dialog.isShowing()) {
-
+                dialog.dismiss();
             }
 
-            dialog.dismiss();
+
         }
 
 
@@ -430,7 +444,7 @@ public class MainActivity extends AppCompatActivity {
             recyclerView.addItemDecoration(new GridSpacingItemDecoration(1, dpToPx(10), true));
             recyclerView.setItemAnimator(new DefaultItemAnimator());
             recyclerView.setAdapter(dsRecyclerviewAdapter);
-           // recyclerView.smoothScrollBy(0,-1);
+            // recyclerView.smoothScrollBy(0,-1);
             recyclerView.smoothScrollToPosition(recyclerView.getAdapter().getItemCount());
             linearLayout.addView(recyclerView);
             setContentView(linearLayout, layoutParams);

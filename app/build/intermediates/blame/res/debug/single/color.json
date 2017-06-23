@@ -1,47 +1,27 @@
 [
     {
-        "merged": "/Users/krushitpatel/Desktop/Asynctask/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_btn_colored_text_material.xml",
-        "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/color/abc_btn_colored_text_material.xml"
-    },
-    {
         "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_tint_switch_track.xml",
         "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/color/abc_tint_switch_track.xml"
-    },
-    {
-        "merged": "/Users/krushitpatel/Desktop/Asynctask/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
-        "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/color/abc_primary_text_disable_only_material_dark.xml"
     },
     {
         "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
         "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/color/abc_hint_foreground_material_dark.xml"
     },
     {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_tint_switch_track.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/color/abc_tint_switch_track.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/color/design_tint_password_toggle.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/fb1ddffe0586588bf070a1deeb89645e68aa06fa/output/res/color/design_tint_password_toggle.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Documents/Sanjay/Android Cls/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_tint_switch_track.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/color/abc_tint_switch_track.xml"
-    },
-    {
-        "merged": "/Users/krushitpatel/Desktop/Asynctask/FbUiDemo/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
-        "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/color/switch_thumb_material_light.xml"
+        "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
+        "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/color/switch_thumb_material_dark.xml"
     },
     {
         "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_tint_default.xml",
         "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/color/abc_tint_default.xml"
     },
     {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_tint_btn_checkable.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/color/abc_tint_btn_checkable.xml"
+        "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_tint_seek_thumb.xml",
+        "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/color/abc_tint_seek_thumb.xml"
     },
     {
-        "merged": "/Users/sanjaypatel/Documents/Sanjay/Android Cls/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/color/abc_primary_text_disable_only_material_dark.xml"
+        "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_tint_switch_thumb.xml",
+        "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/color/abc_tint_switch_thumb.xml"
     },
     {
         "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_tint_spinner.xml",
@@ -52,20 +32,12 @@
         "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/color/abc_tint_edittext.xml"
     },
     {
-        "merged": "/Users/krushitpatel/Desktop/Asynctask/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
-        "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/color/abc_primary_text_disable_only_material_light.xml"
+        "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
+        "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/color/abc_search_url_text.xml"
     },
     {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/color/switch_thumb_material_dark.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/color/abc_secondary_text_material_light.xml"
-    },
-    {
-        "merged": "/Users/krushitpatel/Desktop/Asynctask/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_light.xml",
-        "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/color/abc_hint_foreground_material_light.xml"
+        "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/color/abc_btn_colored_borderless_text_material.xml"
     },
     {
         "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
@@ -76,279 +48,43 @@
         "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/color/abc_hint_foreground_material_light.xml"
     },
     {
-        "merged": "/Users/sanjaypatel/Documents/Sanjay/Android Cls/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/color/abc_secondary_text_material_dark.xml"
-    },
-    {
         "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_btn_colored_text_material.xml",
         "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/color/abc_btn_colored_text_material.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Documents/Sanjay/Android Cls/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/color/abc_primary_text_material_light.xml"
-    },
-    {
-        "merged": "/Users/krushitpatel/Desktop/Asynctask/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_tint_switch_thumb.xml",
-        "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/color/abc_tint_switch_thumb.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Documents/Sanjay/Android Cls/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/color/abc_hint_foreground_material_dark.xml"
-    },
-    {
-        "merged": "/Users/krushitpatel/Desktop/Asynctask/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_tint_switch_track.xml",
-        "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/color/abc_tint_switch_track.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Documents/Sanjay/Android Cls/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_tint_spinner.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/color/abc_tint_spinner.xml"
-    },
-    {
-        "merged": "/Users/krushitpatel/Desktop/Asynctask/FbUiDemo/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
-        "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/color/switch_thumb_material_dark.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_btn_colored_borderless_text_material.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/color/abc_btn_colored_borderless_text_material.xml"
-    },
-    {
-        "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
-        "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/color/switch_thumb_material_dark.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Documents/Sanjay/Android Cls/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_tint_seek_thumb.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/color/abc_tint_seek_thumb.xml"
-    },
-    {
-        "merged": "/Users/krushitpatel/Desktop/Asynctask/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
-        "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/color/abc_primary_text_material_dark.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Documents/Sanjay/Android Cls/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/color/abc_search_url_text.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/color/abc_primary_text_material_dark.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Documents/Sanjay/Android Cls/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/color/abc_secondary_text_material_light.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_tint_edittext.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/color/abc_tint_edittext.xml"
-    },
-    {
-        "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/color/design_tint_password_toggle.xml",
-        "source": "/Users/krushitpatel/.android/build-cache/0ce42ebd01b98dd30875ea99f9fae7e6ec4aa67c/output/res/color/design_tint_password_toggle.xml"
-    },
-    {
-        "merged": "/Users/krushitpatel/Desktop/Asynctask/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_tint_btn_checkable.xml",
-        "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/color/abc_tint_btn_checkable.xml"
-    },
-    {
-        "merged": "/Users/krushitpatel/Desktop/Asynctask/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_tint_default.xml",
-        "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/color/abc_tint_default.xml"
-    },
-    {
-        "merged": "/Users/krushitpatel/Desktop/Asynctask/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_btn_colored_borderless_text_material.xml",
-        "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/color/abc_btn_colored_borderless_text_material.xml"
-    },
-    {
-        "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_tint_btn_checkable.xml",
-        "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/color/abc_tint_btn_checkable.xml"
-    },
-    {
-        "merged": "/Users/krushitpatel/Desktop/Asynctask/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
-        "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/color/abc_secondary_text_material_dark.xml"
-    },
-    {
-        "merged": "/Users/krushitpatel/Desktop/Asynctask/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
-        "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/color/abc_secondary_text_material_light.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_light.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/color/abc_hint_foreground_material_light.xml"
-    },
-    {
-        "merged": "/Users/krushitpatel/Desktop/Asynctask/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
-        "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/color/abc_primary_text_material_light.xml"
-    },
-    {
-        "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
-        "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/color/abc_primary_text_material_light.xml"
-    },
-    {
-        "merged": "/Users/krushitpatel/Desktop/Asynctask/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_tint_edittext.xml",
-        "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/color/abc_tint_edittext.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Documents/Sanjay/Android Cls/FbUiDemo/app/build/intermediates/res/merged/debug/color/design_tint_password_toggle.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/fb1ddffe0586588bf070a1deeb89645e68aa06fa/output/res/color/design_tint_password_toggle.xml"
-    },
-    {
-        "merged": "/Users/krushitpatel/Desktop/Asynctask/FbUiDemo/app/build/intermediates/res/merged/debug/color/design_tint_password_toggle.xml",
-        "source": "/Users/krushitpatel/.android/build-cache/0ce42ebd01b98dd30875ea99f9fae7e6ec4aa67c/output/res/color/design_tint_password_toggle.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/color/abc_secondary_text_material_dark.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Documents/Sanjay/Android Cls/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_tint_edittext.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/color/abc_tint_edittext.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Documents/Sanjay/Android Cls/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_btn_colored_borderless_text_material.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/color/abc_btn_colored_borderless_text_material.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/color/abc_hint_foreground_material_dark.xml"
-    },
-    {
-        "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_tint_seek_thumb.xml",
-        "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/color/abc_tint_seek_thumb.xml"
-    },
-    {
-        "merged": "/Users/krushitpatel/Desktop/Asynctask/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
-        "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/color/abc_search_url_text.xml"
-    },
-    {
-        "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_tint_switch_thumb.xml",
-        "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/color/abc_tint_switch_thumb.xml"
-    },
-    {
-        "merged": "/Users/krushitpatel/Desktop/Asynctask/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_tint_spinner.xml",
-        "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/color/abc_tint_spinner.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_tint_seek_thumb.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/color/abc_tint_seek_thumb.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/color/switch_thumb_material_light.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_tint_switch_thumb.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/color/abc_tint_switch_thumb.xml"
-    },
-    {
-        "merged": "/Users/krushitpatel/Desktop/Asynctask/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_tint_seek_thumb.xml",
-        "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/color/abc_tint_seek_thumb.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Documents/Sanjay/Android Cls/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_btn_colored_text_material.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/color/abc_btn_colored_text_material.xml"
-    },
-    {
-        "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
-        "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/color/abc_search_url_text.xml"
-    },
-    {
-        "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_btn_colored_borderless_text_material.xml",
-        "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/color/abc_btn_colored_borderless_text_material.xml"
-    },
-    {
-        "merged": "/Users/krushitpatel/Desktop/Asynctask/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
-        "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/color/abc_hint_foreground_material_dark.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Documents/Sanjay/Android Cls/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_tint_switch_thumb.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/color/abc_tint_switch_thumb.xml"
-    },
-    {
-        "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
-        "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/color/abc_secondary_text_material_dark.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_tint_spinner.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/color/abc_tint_spinner.xml"
-    },
-    {
-        "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
-        "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/color/abc_secondary_text_material_light.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Documents/Sanjay/Android Cls/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/color/abc_primary_text_disable_only_material_light.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Documents/Sanjay/Android Cls/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_light.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/color/abc_hint_foreground_material_light.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/color/abc_primary_text_material_light.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Documents/Sanjay/Android Cls/FbUiDemo/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/color/switch_thumb_material_light.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/color/design_error.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/fb1ddffe0586588bf070a1deeb89645e68aa06fa/output/res/color/design_error.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Documents/Sanjay/Android Cls/FbUiDemo/app/build/intermediates/res/merged/debug/color/design_error.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/fb1ddffe0586588bf070a1deeb89645e68aa06fa/output/res/color/design_error.xml"
-    },
-    {
-        "merged": "/Users/krushitpatel/Desktop/Asynctask/FbUiDemo/app/build/intermediates/res/merged/debug/color/design_error.xml",
-        "source": "/Users/krushitpatel/.android/build-cache/0ce42ebd01b98dd30875ea99f9fae7e6ec4aa67c/output/res/color/design_error.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/color/abc_search_url_text.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/color/abc_primary_text_disable_only_material_light.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_tint_default.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/color/abc_tint_default.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_btn_colored_text_material.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/color/abc_btn_colored_text_material.xml"
     },
     {
         "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
         "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/color/abc_primary_text_disable_only_material_light.xml"
     },
     {
-        "merged": "/Users/sanjaypatel/Documents/Sanjay/Android Cls/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_tint_btn_checkable.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/color/abc_tint_btn_checkable.xml"
+        "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/color/design_tint_password_toggle.xml",
+        "source": "/Users/krushitpatel/.android/build-cache/0ce42ebd01b98dd30875ea99f9fae7e6ec4aa67c/output/res/color/design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
+        "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/color/abc_secondary_text_material_dark.xml"
     },
     {
         "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
         "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/color/abc_primary_text_disable_only_material_dark.xml"
     },
     {
-        "merged": "/Users/sanjaypatel/Documents/Sanjay/Android Cls/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/color/abc_primary_text_material_dark.xml"
+        "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_tint_btn_checkable.xml",
+        "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/color/abc_tint_btn_checkable.xml"
     },
     {
         "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/color/design_error.xml",
         "source": "/Users/krushitpatel/.android/build-cache/0ce42ebd01b98dd30875ea99f9fae7e6ec4aa67c/output/res/color/design_error.xml"
     },
     {
-        "merged": "/Users/sanjaypatel/Documents/Sanjay/Android Cls/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_tint_default.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/color/abc_tint_default.xml"
-    },
-    {
-        "merged": "/Users/sanjaypatel/Documents/Sanjay/Android Cls/FbUiDemo/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/color/switch_thumb_material_dark.xml"
-    },
-    {
         "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
         "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/color/switch_thumb_material_light.xml"
     },
     {
-        "merged": "/Users/sanjaypatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
-        "source": "/Users/sanjaypatel/.android/build-cache/9d92982aadf4fd6c86b77f2343003e7cb2478df8/output/res/color/abc_primary_text_disable_only_material_dark.xml"
+        "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
+        "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/krushitpatel/Desktop/untitled folder/FbUiDemo/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/Users/krushitpatel/.android/build-cache/33fbb8b4ecfdd2fcf5298e7234fcba83b766a281/output/res/color/abc_secondary_text_material_light.xml"
     }
 ]
